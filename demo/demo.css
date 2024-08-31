@@ -1,0 +1,51 @@
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    margin: none;
+    height: 100%;
+}
+
+html {
+    margin: 0;
+}
+
+#center-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titles {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 8px 0px;
+}
+
+#item-container {
+    max-width: 550px;
+    height: auto;
+    padding: 0px 12px;
+    width: 100%;
+}
+
+#ward-title {
+    margin-top: 8px;
+}
+
+.info-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info-container-stretch {
+    margin-right: auto;
+}
+
+#announcements-separator {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin: 20px 0;
+}
