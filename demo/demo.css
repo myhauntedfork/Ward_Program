@@ -1,6 +1,10 @@
 body {
     background-color: #ffffff;
+<<<<<<< HEAD
     font-family: Helvetica, sans-serif;
+=======
+    font-family: sans-serif;
+>>>>>>> 867c836a56ab54b5b553ca3dcb2359ed88665baa
     margin: none;
     height: 100%;
 }
@@ -18,17 +22,26 @@ html {
 .titles {
     font-weight: 600;
     font-size: 16px;
+<<<<<<< HEAD
     margin: 16px 0px;
+=======
+    margin: 8px 0px;
+>>>>>>> 867c836a56ab54b5b553ca3dcb2359ed88665baa
 }
 
 #item-container {
     max-width: 550px;
     height: auto;
+<<<<<<< HEAD
     width: 100%;
 }
 
 #main-container {
     padding: 0px 12px;
+=======
+    padding: 0px 12px;
+    width: 100%;
+>>>>>>> 867c836a56ab54b5b553ca3dcb2359ed88665baa
 }
 
 #ward-title {
@@ -39,12 +52,18 @@ html {
     width: 100%;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     margin: 0;
+=======
+>>>>>>> 867c836a56ab54b5b553ca3dcb2359ed88665baa
 }
 
 .info-container-stretch {
     margin-right: auto;
+<<<<<<< HEAD
     text-align: left;
+=======
+>>>>>>> 867c836a56ab54b5b553ca3dcb2359ed88665baa
 }
 
 #announcements-separator {
@@ -54,6 +73,7 @@ html {
     background-color: #333;
     margin: 20px 0;
 }
+<<<<<<< HEAD
 
 .info-container,
 .info-container-stretch,
@@ -70,3 +90,5 @@ html {
     margin-bottom: 8px;
     font-size: 16px;
 }
+=======
+>>>>>>> 867c836a56ab54b5b553ca3dcb2359ed88665baa
