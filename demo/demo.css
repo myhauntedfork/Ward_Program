@@ -1,6 +1,6 @@
 body {
     background-color: #ffffff;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: none;
     height: 100%;
 }
@@ -18,14 +18,17 @@ html {
 .titles {
     font-weight: 600;
     font-size: 16px;
-    margin: 8px 0px;
+    margin: 16px 0px;
 }
 
 #item-container {
     max-width: 550px;
     height: auto;
-    padding: 0px 12px;
     width: 100%;
+}
+
+#main-container {
+    padding: 0px 12px;
 }
 
 #ward-title {
@@ -36,10 +39,12 @@ html {
     width: 100%;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .info-container-stretch {
     margin-right: auto;
+    text-align: left;
 }
 
 #announcements-separator {
@@ -48,4 +53,20 @@ html {
     height: 1px;
     background-color: #333;
     margin: 20px 0;
+}
+
+.info-container,
+.info-container-stretch,
+.hymn-titles {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#leader-names {
+    text-align: left;
+}
+
+.leader-people {
+    margin-bottom: 8px;
+    font-size: 16px;
 }

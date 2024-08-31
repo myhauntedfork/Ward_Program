@@ -1,17 +1,12 @@
 :root {
-    --background-color: #f4f4f4;
-    --dark-text-color: #333;
-    --footer-background-color: #333;
-    --light-text-color: #fff;
-    --primary-color: #5299ef;
-    --section-background-color: #fff;
-    --section-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --light-color: #fff;
+    --dark-color: #000000;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--background-color);
-    color: var(--dark-text-color);
+    background-color: var(--light-color);
+    color: var(--dark-color);
     margin: 0;
     padding: 0;
     text-align: center;
@@ -26,51 +21,26 @@ html {
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--light-text-color);
+    background-color: var(--dark-color);
+    color: var(--light-color);
     padding: 20px 0;
     padding-left: 10vw;
     padding-right: 10vw;
 }
 
-header h1 {
-    margin: 0;
-}
-
 .container {
     padding: 20px;
-}
-
-.section1,
-.section2 {
-    background-color: var(--section-background-color);
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: var(--section-box-shadow);
-}
-
-.section1 h2,
-.section2 h2 {
-    margin-top: 0;
-}
-
-.feature-list {
-    list-style: none;
-    padding: 0;
-}
-
-.feature-list li {
-    margin: 10px 0;
-    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 1.2em;
-    color: var(--light-text-color);
-    background-color: var(--primary-color);
+    color: var(--light-color);
+    background-color: var(--dark-color);
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -83,11 +53,9 @@ header h1 {
     transform: scale(1.1);
 }
 
-footer {
-    background-color: var(--footer-background-color);
-    color: var(--light-text-color);
-    padding: 10px 0;
-    margin-top: auto;
+#header-title {
+    font-size: 3vh;
+    margin: 5px;
 }
 
 @media (min-width: 800px) {
