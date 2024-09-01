@@ -84,8 +84,8 @@ main {
 #features {
     display: flex;
     justify-content: left;
-    align-items: center;
-    height: 20vh;
+    align-items: top;
+    height: 10vh;
     background-color: var(--white);
     position: relative;
 }
@@ -97,11 +97,8 @@ main {
 
 .no {
     font-size: 2rem;
-    margin-right: 5px;
-}
-
-.no p {
-    line-height: 0;
+    display: inline-block;
+    vertical-align: baseline;
 }
 
 li {
@@ -110,13 +107,14 @@ li {
 
 .no-list {
     justify-content: space-around;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     position: absolute;
     transition: top 0.5s ease-in-out;
     will-change: top;
-    width: 200px;
-    font-size: 1rem;
+    width: 100vw;
+    font-size: 2rem;
+    vertical-align: baseline;
 }
 
 .no-list.show {
@@ -132,7 +130,7 @@ li {
 }
 
 #actions {
-    text-align: left;
+    text-align: center;
     margin-top: 30px;
 }
 
@@ -140,6 +138,17 @@ li {
     display: flex;
     justify-content: center;
     overflow: hidden;
+}
+
+.qrcode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#qr-code {
+    width: 25rem;
 }
 
 @keyframes dropIn {
@@ -159,7 +168,18 @@ li {
         color: #000000;
     }
     to {
-        top: 50%;
+        top: 40%;
         color: #00000000;
+    }
+}
+
+@media (max-width: 768px) {
+    .no-list,
+    .no {
+        font-size: 1.5rem;
+    }
+
+    .no-list {
+        max-width: 768;
     }
 }

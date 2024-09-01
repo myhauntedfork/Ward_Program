@@ -1,10 +1,10 @@
 const features = [
-    "App downloads",
-    "Sign in for ward members",
-    "Pivacy concerns",
-    "Fancy Fonts",
-    "Crazy Color Picker",
-    "Comlicated Layouts",
+    "app downloads",
+    "congregation sign in",
+    "pivacy concerns",
+    "fancy fonts",
+    "crazy color picker",
+    "comlicated layouts",
 ];
 
 let currentIndex = 0;
@@ -23,7 +23,6 @@ function updateFeature() {
 }
 
 // Change feature every 3 seconds (3000 milliseconds)
-setInterval(updateFeature, 3000);
+setInterval(updateFeature, 2000);
 
-// Initial call to display the first feature immediately
 updateFeature();
