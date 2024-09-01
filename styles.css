@@ -180,6 +180,6 @@ li {
     }
 
     .no-list {
-        max-width: 768;
+        max-width: 60vw;
     }
 }
